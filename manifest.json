@@ -1,0 +1,733 @@
+{
+    "manifest_version": "1.0.20",
+    "title": "Abstract Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/team\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-team",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Author",
+            "screenshot": "screenshots\/abstract-author.jpg",
+            "source": "templates\/abstract-author.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-author",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-category",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/author"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Author Archive."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Header 2",
+            "screenshot": "screenshots\/abstract-header-2.jpg",
+            "source": "templates\/abstract-header-2.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-header-2",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/1614"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Page #1614."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Offcanvas",
+            "screenshot": "screenshots\/abstract-offcanvas.jpg",
+            "source": "templates\/abstract-offcanvas.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-offcanvas",
+            "type": "popup",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-popup",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "popup",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Popup\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Footer 1",
+            "screenshot": "screenshots\/abstract-footer-1.jpg",
+            "source": "templates\/abstract-footer-1.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-footer-1",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Footer 2",
+            "screenshot": "screenshots\/abstract-footer-2.jpg",
+            "source": "templates\/abstract-footer-2.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-footer-2",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/singular\/page\/1614"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Page #1614."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Single",
+            "screenshot": "screenshots\/abstract-single.jpg",
+            "source": "templates\/abstract-single.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-single",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Category",
+            "screenshot": "screenshots\/abstract-category.jpg",
+            "source": "templates\/abstract-category.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-category",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-category",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive\/category"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: Categories."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Search",
+            "screenshot": "screenshots\/abstract-search.jpg",
+            "source": "templates\/abstract-search.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-search",
+            "type": "search-results",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-search",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "search-results",
+                "elementor_pro_conditions": [
+                    "include\/archive\/search"
+                ],
+                "additional_template_information": [
+                    "This is a \"Search Results\" template for Elementor Pro.",
+                    "This template will display on: Search Results."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/faq\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract 404",
+            "screenshot": "screenshots\/abstract-404.jpg",
+            "source": "templates\/abstract-404.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-404",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home Module 5 Post Grid",
+            "screenshot": "screenshots\/home-module-5-post-grid.jpg",
+            "source": "templates\/home-module-5-post-grid.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/home-module-5-post-grid\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home Main Col Post Grid",
+            "screenshot": "screenshots\/home-main-col-post-grid.jpg",
+            "source": "templates\/home-main-col-post-grid.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/home-main-col-post-grid\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1.jpg",
+            "source": "templates\/home-1.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/home-1\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/home-2\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/template-kit\/contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Abstract Header 1",
+            "screenshot": "screenshots\/abstract-header-1.jpg",
+            "source": "templates\/abstract-header-1.json",
+            "preview_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/?elementor_library=abstract-header-1",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Livemesh Addons for Elementor",
+            "version": "6.14",
+            "file": "addons-for-elementor\/addons-for-elementor.php",
+            "author": "Livemesh"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.4.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.4.1",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.3.7",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.0.1",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegstudio"
+        },
+        {
+            "name": "Qi Addons For Elementor",
+            "version": "1.5",
+            "file": "qi-addons-for-elementor\/class-qiaddonsforelementor.php",
+            "author": "Qode Interactive"
+        }
+    ],
+    "images": [
+        {
+            "filename": "nick-fewings-GoXNygZlftg-unsplash.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/nick-fewings-GoXNygZlftg-unsplash-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 102683,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/GoXNygZlftg"
+        },
+        {
+            "filename": "4-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/4-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 35989,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "2-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/2-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 22462,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "7-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/7-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 19757,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "9-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/9-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 31229,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "6-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/6-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 27549,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "8-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/8-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 23220,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/thispersondoesnotexist.com\/"
+        },
+        {
+            "filename": "Team.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/Team-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 206690,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/SYTO3xs06fU"
+        },
+        {
+            "filename": "Team-2.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/Team-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 179877,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/gMsnXqILjp4"
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/team-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 153001,
+            "dimensions": [
+                1050,
+                700
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/2FPjlAyMQTA"
+        },
+        {
+            "filename": "25.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/25-800x1033.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-author.json",
+                    "name": "Abstract Author"
+                },
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 147022,
+            "dimensions": [
+                1920,
+                2479
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/Uf7orCeRVsA"
+        },
+        {
+            "filename": "15.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/15-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-author.json",
+                    "name": "Abstract Author"
+                }
+            ],
+            "filesize": 63063,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/atbs.bk-ninja.com\/suga_abstract\/wp-content\/uploads\/2019\/10\/oriento-bkhHk3eRuRg-unsplash-e1571822280292-2000x1125.jpg"
+        },
+        {
+            "filename": "img.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/img-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                }
+            ],
+            "filesize": 35117,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/d-wjFQansnY"
+        },
+        {
+            "filename": "31.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/31-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                }
+            ],
+            "filesize": 56331,
+            "dimensions": [
+                1920,
+                1440
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/8ZghKB0Hfbo"
+        },
+        {
+            "filename": "30.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/30-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                }
+            ],
+            "filesize": 70386,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/-fwec3XgtUo"
+        },
+        {
+            "filename": "26.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/26-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                }
+            ],
+            "filesize": 86556,
+            "dimensions": [
+                1920,
+                1920
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/90ApxSJTTdg"
+        },
+        {
+            "filename": "20.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/20-800x425.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-footer-2.json",
+                    "name": "Abstract Footer 2"
+                }
+            ],
+            "filesize": 153050,
+            "dimensions": [
+                1920,
+                1021
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/photos\/taKCAaRUVV8"
+        },
+        {
+            "filename": "404-error-with-a-landscape-amico.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/404-error-with-a-landscape-amico-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/abstract-404.json",
+                    "name": "Abstract 404"
+                }
+            ],
+            "filesize": 94111,
+            "dimensions": [
+                1920,
+                1920
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/storyset.com\/"
+        },
+        {
+            "filename": "11.jpg",
+            "thumbnail_url": "https:\/\/goatthemes.com\/elementor_kit\/suga-abstract\/wp-content\/uploads\/sites\/16\/2022\/01\/11-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 45493,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/atbs.bk-ninja.com\/suga_abstract\/wp-content\/uploads\/2019\/10\/andrew-wong-fmPNELNHbWA-unsplash-2000x1125.jpg"
+        }
+    ]
+}
